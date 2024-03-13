@@ -34,12 +34,12 @@
 	}
 
 	.post {
-		border: 1px solid #ddd;
+		border: 1px solid #96e7f1;
 		padding: 10px;
-		box-shadow: 0 0 10px #eee;
+		box-shadow: 0 0 10px #4e89f7;
 	}
 
 	.link {
-		color: rgb(10, 10, 139);
+		color: rgb(18, 78, 6);
 	}
 </style>

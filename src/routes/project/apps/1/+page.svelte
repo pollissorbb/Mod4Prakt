@@ -58,7 +58,7 @@ function complete(index) {
     min-height: 100%;
     padding: 5vmin;
     box-sizing: border-box;
-    background: antiquewhite;
+    background: rgba(178, 229, 245, 0.616);
 }
 
 form {
@@ -73,7 +73,7 @@ input {
     flex-grow: 1;
     width: 0;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(0, 20, 136);
     background: transparent;
     box-shadow: none;
     font-size: 1.2rem;
@@ -90,8 +90,8 @@ input {
     display: flex;
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 0 0 15px rgb(0 0 0 / 20%);
-    background-color: hsla(0, 0%, 100%, 0.2);
+    box-shadow: 0 0 15px rgba(17, 43, 112, 0.438);
+    background-color: hsla(199, 50%, 54%, 0.336);
     margin-top: 1rem;
     font-size: 1.2rem;
     justify-content: space-between;
@@ -128,7 +128,7 @@ button {
 		height: 2rem;
 		margin: 0;
 		background: transparent;
-		border: 1px solid black;
+		border: 1px solid rgb(0, 0, 0);
 		border-radius: 100%;
 		flex-shrink: 0;
 		margin-left: 1rem;
@@ -153,16 +153,16 @@ button {
 
 	button.delete,
 	button.delete:hover {
-		color: brown;
+		color: rgb(199, 13, 106);
 		transition: color 100ms ease-out;
 	}
 	button.complete,
 	button.complete:hover {
-		color: cadetblue;
+		color: rgb(58, 160, 243);
 		transition: color 100ms ease-out;
 	}
 	.todo.completed {
-		color: slategray;
+		color: rgb(13, 70, 136);
 	}
 
 	.todo.completed .todo__text {
@@ -170,6 +170,6 @@ button {
 	}
 
 	.todo.completed button {
-		color: silver;
+		color: rgb(164, 93, 182);
 	}
 </style>

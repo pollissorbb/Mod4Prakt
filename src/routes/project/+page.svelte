@@ -38,12 +38,12 @@
     }
   
     .app {
-      border: 1px solid #ddd;
+      border: 1px solid #2f91ec77;
       padding: 10px;
-      box-shadow: 0 0 10px #eee;
+      box-shadow: 0 0 10px #8d8ff7;
     }
   
     .link {
-      color: rgb(10, 10, 139);
+      color: rgb(6, 49, 90);
     }
   </style>
